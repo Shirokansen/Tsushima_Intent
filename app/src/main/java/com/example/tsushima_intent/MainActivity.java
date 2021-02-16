@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         startActivity(i);
 
-        int numberMonths=Integer.parseInt(String.valueOf(display.getText()));
+        int numberMonths=Integer.parseInt(String.valueOf(input.getText()));
 
 
         switch(v.getId()) {
